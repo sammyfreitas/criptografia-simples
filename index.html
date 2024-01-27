@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Criptografia de Vogais</title>
+</head>
+<body>
+<div class="outer-container">
+        <div class="social-icons">
+            <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://wa.me/5521975287327" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:tonysdefreitas@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+            <a href="https://github.com/sammyfreitas" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+		
+		<div class="container">
+			<h1>Criptografia de Vogais</h1>
+			<label for="palavra">Digite a palavra:</label>
+			<input type="text" id="palavra" name="palavra">
+			
+			<label for="criptografia">Selecione a Criptografia:</label>
+			<select id="criptografia" name="criptografia">
+				<option value="criptografar">Criptografar</option>
+				<option value="descriptografar">Descriptografar</option>
+			</select>
+			<button type="button" onclick="processaPalavra()">Ok</button>
+			<br>
+			<label for="criptografia">Resultado:</label>
+			<div id="resultado"></div>
+			<button type="button" onclick="ctrl_c()">Copiar</button>
+			<button type="button" onclick="limpar()">Limpar</button>
+		</div>
+	
+	<div class="rodape-container">
+        Desenvolvido por <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a>
+        professor do Curso de Programador Front-End no Senai Maracanã<br>Todos os direitos reservados - 2024
+    </div>
+</div>
+	<script src="script.js"></script>
+</body>
+</html>

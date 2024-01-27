@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+	background-image: url("background.jpg"); 
+	background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;  
+	background-position: center;
+	color: darkblue;
+	font-size:larger;	
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	align-items:center;
+	text-align:center;
+	border-radius: 15px;
+    width: 80%;	
+	background-color: rgba(254, 247, 231, 0.8);
+	/*color */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+	font-weight: bold;
+	color: darkblue;
+}
+
+input {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 10px;
+	text-align: center;
+}
+
+select {
+	background-color: darkblue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+	margin-bottom: 10px;
+}
+
+button {
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	object-fit: cover;
+    width: 200px; /* Ajuste a largura conforme necessário */
+    height: 200px; /* Ajuste a altura conforme necessário */
+}
+
+resultado{
+	color:black;
+	
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.social-icons {
+    border-radius: 15px;
+    background-color: rgba(254, 247, 231, 0.8);
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #8B735B;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+.rodape-container {
+    margin-top: 15px;
+    text-align: center;
+	font-family: 'Roboto';
+    font-size:medium;
+	color: #8B735B;
+    border-radius: 15px;
+    background-color: rgba(254, 247, 231, 0.8);
+    padding: 20px;
+}
